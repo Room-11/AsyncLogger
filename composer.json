@@ -1,0 +1,27 @@
+{
+    "name": "room11/async-logger-interface",
+    "description": "Basic interface for asynchronous logging implementations",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "email": "info@pieterhordijk.com",
+            "homepage": "https://pieterhordijk.com",
+            "role": "developer"
+        },
+        {
+            "name": "Chris Wright",
+            "email": "cw@daverandom.com",
+            "homepage": "https://daverandom.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Room11\\AsyncLogger\\": "src/"}
+    },
+    "require": {
+        "amphp/amp": "^1.2"
+    }
+}
