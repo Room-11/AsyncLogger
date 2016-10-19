@@ -1,5 +1,5 @@
 {
-    "name": "room11/async-logger-interface",
+    "name": "room11/async-logger",
     "description": "Basic interface for asynchronous logging implementations",
     "minimum-stability": "dev",
     "prefer-stable": true,
