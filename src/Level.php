@@ -1,5 +1,7 @@
 <?php declare(strict_types = 1);
 
+namespace Room11\AsyncLogger;
+
 abstract class Level
 {
     const FATAL = 0b00001;
